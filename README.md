@@ -83,6 +83,7 @@ _Before using this project, in any form, you should properly test the evasion fe
 ## Detection Guidance
 ### Hardcoded Strings 
 + BokuLoader changes some commonly detected strings to new hardcoded values. These strings can be used to signature BokuLoader:
++ PE Mask XOR 123
 
 |Original Cobalt Strike String|BokuLoader Cobalt Strike String|
 |------------------------------|---------------------------------|
